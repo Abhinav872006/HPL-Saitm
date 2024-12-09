@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+header {
+    background-color: #FF5733;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo img {
+    height: 50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 8px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.game img {
+    position:relative ;
+    left: 50px;
+    width: 200px;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: transparent solid 2px;
+    
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:#4CAF50;
+    border: 2px solid green;
+    color: black;
+    cursor: pointer;
+
+}

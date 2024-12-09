@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Premier League (HPL)</title>
+    <link rel="stylesheet" href="index.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="data:image/jpeg;base64,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" alt=""> <!-- Replace with your logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#fixtures">Fixtures</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section: Welcome and Event Overview -->
+    <section id="home">
+        <h1>Welcome to the Hostel Premier League (HPL) of SAITM Collage</h1>
+        <p>Get ready for a thrilling competition featuring football, cricket, table tennis, basketball, and e-sports!</p>
+        <button>Join the Action</button>
+    </section>
+
+    <!-- Game Details Section -->
+    <section id="games">
+        <h2>Games</h2>
+        <div class="game">
+            <img src="https://cdn.magicdecor.in/com/2024/05/22173454/Football-Abstract-Design-Wallpaper-Mural-710x488.jpg" alt="Football">
+            <h3>Football</h3>
+            <p>Compete for the title of HPL Football Champions!</p>
+        </div>
+        <div class="game">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFhCrdIdRrSyZJU_fuNaYXze-ePLcbIs2mg&s" alt="Cricket">
+            <h3>Cricket</h3>
+            <p>Join the battle of the bat and ball!</p>
+        </div>
+        <div class="game">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7Ba9drcoJpZlitXFQmy-DLRvXbRsRkXpew&s" alt="Table Tennis">
+            <h3>Table Tennis</h3>
+            <p>The fast-paced competition!</p>
+        </div>
+        <div class="game">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2YHQSgNFMp-D6uxRU-59qDMb7FjgVn2UFQ&s" alt="Basketball">
+            <h3>Basketball</h3>
+            <p>Only the best can slam dunk their way to victory!</p>
+        </div>
+        <div class="game">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTKvpqt5KMFbxdHVfcZxAmkqp8fjs44tZ3Jg&s" alt="E-Sports">
+            <h3>E-Sports</h3>
+            <p>Compete in your favorite video games for the title!</p>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams">
+        <h2>Teams</h2>
+        <div class="team">
+            <h3>Team A</h3>
+            <p>Players: Player 1, Player 2, Player 3</p>
+        </div>
+        <div class="team">
+            <h3>Team B</h3>
+            <p>Players: Player 1, Player 2, Player 3</p>
+        </div>
+        <!-- Add more teams here -->
+    </section>
+
+    <!-- Fixtures Section -->
+    <section id="fixtures">
+        <h2>Fixtures</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Football: Team A vs Team B</td>
+                    <td>2024-12-10</td>
+                    <td>Football Ground</td>
+                    <td>10:00 AM</td>
+                </tr>
+                <!-- Add more matches here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section id="leaderboard">
+        <h2>Leaderboard</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Team A</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Team B</td>
+                    <td>8</td>
+                </tr>
+                <!-- Add more rows based on performance -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Hostel Premier League | All rights reserved</p>
+    </footer>
+</body>
+</html>
